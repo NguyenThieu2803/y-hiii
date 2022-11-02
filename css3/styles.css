@@ -1,0 +1,291 @@
+@charset  utf-8;
+
+/* CSS Document */
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+background: url(https://scontent.xx.fbcdn.net/v/t1.15752-9/311315602_839239453898383_2667392989439182202_n.jpg?stp=dst-jpg_p160x160&_nc_cat=102&ccb=1-7&_nc_sid=aee45a&_nc_ohc=acsu8qKqrbYAX__S21-&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVIXZYryc2CQguGLmEPDa6dCjPoiHPkWDbUyB7l5Hqof1w&oe=636C5781);
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+background-attachment: fixed;
+}
+#bg { 
+position: fixed; 
+    	height: 100%;
+		width: 100%;
+		background: #000;
+		z-index: 200;
+		top: 0;
+		left: 0; 
+}
+
+.msg {
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: rgb(49, 255, 0);
+	font-size: 16px;
+	text-shadow: 2px 1px black, 0 1px black, 1px 0 black, 0 -1px #166f00;
+}
+
+h1 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 72px;
+	font-weight: lighter;
+	color: #FFF;
+	text-shadow: -1px 0 white, 3px 2px black, 1px 0 black, 0 -1px black;
+	
+}
+#divResult h2{
+    font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+	color: #000;
+	font-weight: bold;
+
+}
+
+input[type=button] {
+	background: #c506ac;
+	color: #fff;
+	border: 0;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 15px 25px;
+	font-weight: 700;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+#co {
+	background: #145400;
+	border: 0;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 15px 25px;
+	position: absolute;
+	left: 333px;
+	top: 296px;
+	cursor: pointer;
+	-o-transition: .5s;
+	-ms-transition: .5s;
+	-moz-transition: .5s;
+	-webkit-transition: .5s;
+	transition: .5s;
+}
+
+#co a {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #fff;
+	display: inline-block;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 15px;
+}
+
+#co:hover {
+	background: #111;
+}
+
+#form {
+	float: left;
+	background: #c506ac;
+	font-size: 19px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 0;
+	height: 48px;
+	width: 500px;
+	padding: 0 10px;
+	color: #fff;
+}
+
+#form:focus {
+	background: #111;
+}
+
+#gui {
+	position: absolute;
+	right: 20px;
+}
+
+#gui:hover {
+	background: #111;
+}
+.shit {
+	height: 100px;
+	width: 100px;
+}
+.shit2{
+	height: 100px;
+	width: 100px;
+}
+#traloi h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+	font-size: 30px;
+	color: #000;
+	font-weight: bold;
+}
+#traloi p {
+    font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+	color: #000;
+	font-weight: bold;
+}
+#divResult2 p {
+    font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+	color: #000;
+	font-weight: bold;
+}
+#divResult3 p {
+    font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+	color: #000;
+	font-weight: bold;
+}
+
+#dialog-overlay {
+	width:100%; 
+	height:100%;
+	background:#000; 
+	position:absolute; 
+	top:0; left:0; 
+	z-index:3000; 
+	display:none;
+}
+
+
+#dialog-box {
+	background:#eee;
+	width:328px; 
+	position:absolute; 
+	z-index:5000; 
+	display:none;
+}
+
+#dialog-box .dialog-content {
+
+	text-align:left; 
+	padding:10px; 
+	margin:13px;
+	color:#666; 
+	font-size:15px; 
+}
+
+#dialog-box .dialog-content p {
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:700; 
+	margin:0;
+}
+
+#dialog-box .dialog-content ul {
+	margin:10px 0 10px 20px; 
+	padding:0; 
+	height:100px;
+}
+#msb-nt{
+	background: #06c542;
+	border: 0;
+	width: 40px;
+	margin-left: auto;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 10px;
+	cursor: pointer;
+}
+#dialog-box .dialog-content a{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #fff;
+	display: inline-block;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 15px;
+}
+.anh {
+	height: 100px;
+	width: 100px;
+}
+.icon {
+	height: 100px;
+	width: 100px;
+}
+#wrapper {
+	min-height: 21vh;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+#f {
+	max-width: 400px;
+	background-image: url(https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/64137a18-0869-4ce9-9a71-00b7ac788df1);
+background-size: contain;
+background-position: no-repeat;
+padding: 30px 30px 35px;
+
+}
+.formheading {
+	font-size: 25px;
+	text-align: center;
+	color: #956a05;
+	margin-bottom: 30px;
+}
+.form-group {
+	/* tạo boder dưới phần input */
+	border-bottom: 1px solid #fff;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	display: flex;
+}
+.form-input {
+	/* ẩn nên trắng */
+	background: transparent;
+	border: 0;
+	/* ddwuocngf viền bên ngoài khi mình cho chuột vào */
+	outline: 0;
+	/* màu khi nhập */
+	color: #e7a409;
+	/* khoảng trống item = với continer */
+	flex-grow: 1; 
+	border: 3px solid rgba(212, 107, 10, 0.158);
+	padding: 9px;
+	margin-top: 30px;
+    margin-bottom: 89px;
+
+}
+/* đi vào phần nhập */
+.form-input::placeholder {
+	/* màu khi chưa nhập */
+	color: #FFF;
+	
+}
+#form-submit {
+	background-color: #956a05;
+	color: #FFF;
+	width: 100%;
+	box-shadow:#956a05;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 2px solid #b9b19f;
+	/* hiệu ứng làm chậm hover */
+	transition: 0.25 ease-in-out;
+	justify-items: center;
+
+}
+#form-submit:hover{
+     border: 2px solid black;
+	 box-shadow: #956a05;
+	 color:black;
+}
+.form {
+	background-image: url(https://3dwarehouse.sketchup.com/warehouse/v1.0/content/public/64137a18-0869-4ce9-9a71-00b7ac788df1);
+	width: 381px;
+	background-size: contain;
+	max-width: 400px;
+	height: 182px;
+	padding: 68px;
+}
+

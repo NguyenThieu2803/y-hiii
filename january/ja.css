@@ -1,0 +1,234 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color:  #e2a0c0;
+    font-family: 'Montserrat', sans-serif;
+}
+/* HEADER */
+
+.wrapper {
+    background: pink;
+    height: 80px;
+    width: 100%;
+}
+.continer {
+    display: flex;
+    justify-content: space-between;
+}
+.title {
+    margin: -9px;
+    margin-left: 262px;
+    padding: 0px;
+}
+.menu {
+    display: flex;
+    line-height: 80px;
+    list-style: none;
+    padding-right: 20px;
+    
+}
+.menu li a{
+    position: relative;
+    margin-left: 20px;
+    margin-right: 25px;
+    padding-bottom: 5px;
+    font-size: large;
+    color: white;
+    text-decoration: none;
+    
+}
+.menu li:hover ul#son-menu {
+    display: block;
+}
+.menu ul#son-menu {
+    list-style: none;
+    position: absolute;
+    background-color: rgb(230, 78, 129);
+    margin: -5px;
+    display: none;
+    z-index: 4;
+}
+.menu ul#son-menu li  a{
+    border: 1px solid rgb(207, 196, 196);
+    padding: 10px;
+    margin: 17px;
+    margin-top: 3px;
+    color: #b3631d;
+}
+.menu ul#son-menu li  a:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: 0 100%;
+  background-size: auto 6px;
+  background-repeat: repeat-x;
+  text-decoration: none;
+  transition:0.3s;
+}
+/* set boder for menu */
+.menu>li>a::before {
+content: "";
+height: 5px;
+width: 0px;
+background: red;
+position: absolute;
+bottom: 0px;
+transition: 0.25s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
+.menu>li:hover>a{
+    color: red;
+}
+.menu>li:hover>a::before {
+    left: 3px;
+    width: 100%;
+}
+
+/* BODYYYYYYYYYYYYYYYY */
+/* tilte*/
+.tiltle-main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: red;
+    text-align: center;
+
+}
+
+/* IMAGE */
+.image-slider {
+    z-index: 1;
+    /* display: flex; */
+    margin: 10px 42px 42px 42px;
+    padding-left: 115px;
+    background-color: #f2ecf1;
+    border: 1px solid red;
+    border-radius: 30px;
+    padding-top: 50px;
+}
+.image-item {
+    padding-left: 5px;
+}
+.image {
+    margin: 5px;
+}
+.img-title {
+    font-size: 50px;
+    color: red;
+    padding-left: 60px;
+}
+.image img{
+    height: 400px;
+    border-radius: 20px;
+    width: 65%;
+}
+.slick-prev {
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: aqua;
+    color: aliceblue;
+    border: none;
+    z-index: 2;
+    padding: 10px 20px;
+}
+.slick-next {
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: aqua;
+    color: aliceblue;
+    border: none;
+    z-index: 2;
+    padding: 10px 20px;
+}
+/* css main */
+.tilte-main {
+    text-align: center;
+    color: #b33939;
+}
+.logo-main-content {
+    margin-top: 55px;
+    display: flex;
+}
+.iconnn {
+    color: rgb(184, 96, 9);
+    font-size: 30px;
+}
+.boder {
+    background:#da5c9f;
+    text-align: center;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+}
+.boder .fiter {
+    text-align: center;
+    font-size: 20px;
+    color: pink;
+}
+.boder .iconn {
+    color: red;
+}
+/* IMG_ITEM */
+.title_CONTENT{
+    font-family: 'Brush Script MT', cursive;
+    text-align: center;
+    color: red;
+    margin-bottom: 50px;
+}
+.image-content {
+    display: flex;
+    max-width: 1000px;
+    
+}
+.image_item {
+    background-color: aliceblue;
+    width: 200px;
+    padding: 30px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+    border-radius: 30px;
+    margin-top: 20px;
+    display: flex;
+}
+.image_item:hover {
+    background-color: #e84393;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 200px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+    transition: 0.5s;
+
+}
+
+.image_item img {
+    display: block;
+    max-height: 400px;
+    max-width: 190px;
+    height: auto;
+    border-radius: 30px;
+}
+#ND {
+    width: 100px;
+    padding: 10px 40px;
+    display: none;
+}
+.image_item:hover #ND {
+    display: block;
+}
+.DATE {
+    color: cyan;
+    text-align: center;
+    font-family: 'Brush Script MT', cursive;
+    padding-top: 20px;
+}
+.tilte_IMG {
+    color:rgb(34, 237, 146);
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Brush Script MT', cursive;
+}
